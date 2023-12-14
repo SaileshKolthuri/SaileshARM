@@ -70,6 +70,11 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+    <applicationVisibilities>
+        <application>standard__ServiceConsole</application>
+        <default>false</default>
+        <visible>false</visible>
+    </applicationVisibilities>
     <classAccesses>
         <apexClass>CopadoTrailHelper</apexClass>
         <enabled>true</enabled>
@@ -6117,6 +6122,11 @@
     </customSettingAccesses>
     <fieldPermissions>
         <editable>true</editable>
+        <field>GitHub__c.Commit_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>User.copado__API_URL__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -11844,6 +11854,9 @@
         <layout>FeedItem-Feed Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>GitHub__c-GitHub Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Global-Global Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -12462,6 +12475,15 @@
         <layout>copado__User_Story__c-copado__User Story Layout</layout>
         <recordType>copado__User_Story__c.copado__Utility</recordType>
     </layoutAssignments>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>GitHub__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -14336,6 +14358,10 @@
         <recordType>copado__User_Story__c.copado__Utility</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>GitHub__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>copado__Account_Summary</tab>
         <visibility>DefaultOn</visibility>
