@@ -11,6 +11,18 @@
         <objectMapping>
             <inputObject>Contact</inputObject>
             <mappingFields>
+                <inputField>FirstName</inputField>
+                <outputField>FirstName</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>LastName</inputField>
+                <outputField>LastName</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Phone</inputField>
+                <outputField>Phone</outputField>
+            </mappingFields>
+            <mappingFields>
                 <inputField>Email</inputField>
                 <outputField>Email</outputField>
             </mappingFields>
@@ -33,18 +45,6 @@
             <mappingFields>
                 <inputField>AccountId</inputField>
                 <outputField>Company</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>FirstName</inputField>
-                <outputField>FirstName</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>LastName</inputField>
-                <outputField>LastName</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>Phone</inputField>
-                <outputField>Phone</outputField>
             </mappingFields>
             <outputObject>Lead</outputObject>
         </objectMapping>

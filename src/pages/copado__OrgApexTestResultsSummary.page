@@ -37,7 +37,7 @@
 
     <body>
         <!-- THIS URL CAN BE CHANGED TO REPLACE THE LOGO-->
-        <img src="https://copado--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015Hu000004ywds&oid=00DHu000002hzTU&lastMod=1496992954000" style="margin: 16px 16px 0 0" />
+        <img src="https://copado--c.eu2.content.force.com/servlet/servlet.ImageServer?id=015Hu000004yxhM&oid=00DHu000002i1LY&lastMod=1496992954000" style="margin: 16px 16px 0 0" />
         <br />
         <div class="noprint">
             <apex:pageMessage strength="1" severity="info" summary="{!$Label.copado__APEX_TEST_RESULT_SUMMARY_INFO}"  />
