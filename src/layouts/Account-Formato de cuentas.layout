@@ -142,6 +142,31 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
+            <actionName>ChangeOwnerOne</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>25</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>CallHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>26</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>SmsHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>27</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>EmailHighlightAction</actionName>
+            <actionType>ProductivityAction</actionType>
+            <sortOrder>28</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>Share</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>24</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>NewOpportunity</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>0</sortOrder>
@@ -180,16 +205,6 @@
             <actionName>LogACall</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>7</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>JigsawSearch</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>21</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>PartnerScorecard</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>22</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>FeedItem.ContentNote</actionName>
@@ -257,34 +272,19 @@
             <sortOrder>20</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>JigsawSearch</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>21</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>PartnerScorecard</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>22</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>IncludeOffline</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>23</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>Share</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>24</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>ChangeOwnerOne</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>25</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>CallHighlightAction</actionName>
-            <actionType>ProductivityAction</actionType>
-            <sortOrder>26</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>SmsHighlightAction</actionName>
-            <actionType>ProductivityAction</actionType>
-            <sortOrder>27</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>EmailHighlightAction</actionName>
-            <actionType>ProductivityAction</actionType>
-            <sortOrder>28</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>WebsiteHighlightAction</actionName>
